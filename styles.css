@@ -612,7 +612,7 @@ p {
 
 .footer-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -657,6 +657,30 @@ p {
 
 .footer-social .social-link:hover {
     background: var(--primary-color);
+}
+
+.footer-powered {
+    justify-self: end;
+    align-self: center;
+}
+
+.powered-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.powered-link img {
+    max-width: 281px;
+    height: auto;
+    opacity: 0.8;
+    transition: var(--transition);
+}
+
+.powered-link:hover img {
+    opacity: 1;
+    transform: scale(1.05);
 }
 
 .footer-bottom {
