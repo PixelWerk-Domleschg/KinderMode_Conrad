@@ -171,7 +171,7 @@ p {
 }
 
 .hero-logo img {
-    max-width: 300px;
+    max-width: 225px;
     height: auto;
     filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.3));
 }
